@@ -31,9 +31,9 @@ pipeline {
         }
     }
 //    post {
-        // Clean after build
+       // Clean after build
   //      always {
-            cleanWs(cleanWhenSuccess: true)
+ //           cleanWs(cleanWhenSuccess: true)
     //    }
 //    }
 }
