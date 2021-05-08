@@ -30,10 +30,10 @@ pipeline {
             }
         }
     }
-//    post {
+   post {
        // Clean after build
-  //      always {
- //           cleanWs(cleanWhenSuccess: true)
-    //    }
-//    }
+        always {
+            cleanWs(cleanWhenSuccess: true)
+        }
+    }
 }
